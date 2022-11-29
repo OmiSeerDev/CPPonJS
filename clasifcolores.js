@@ -1,4 +1,4 @@
-var colors = {
+var primaryColors = {
     red:"red",
     blue:"blue",
     green:"green"

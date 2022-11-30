@@ -1,3 +1,7 @@
+body {
+    border: solid black 2px;
+}
+
 header {
    background-color: coral;
    display: flex;
@@ -7,7 +11,7 @@ header {
    height: 80px;
    max-width:80%;
    margin-top: 2px;
-   /*position: absolute*/
+   
 }
 
 form {

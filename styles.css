@@ -1,9 +1,17 @@
-header.head {
+header {
    background-color: coral;
    display: flex;
    justify-content: center;
    align-items: center;
    font-size: 32px; 
    height: 80px;
+   max-width:80%;
    margin-top: 2px;
+   /*position: absolute*/
+}
+
+form {
+    height: 33px;
+    width: 33px;
+    background-color: aquamarine;
 }

@@ -1,21 +1,22 @@
+
 body {
     border: solid black 2px;
 }
 
 header {
-   background-color: coral;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-size: 32px; 
-   height: 80px;
-   max-width:80%;
-   margin-top: 2px;
-   
+   background-color: rgb(25, 206, 25);
+   display: inline-block;
+   position:sticky;
+   max-width: 100%;
+   justify-content: left;
+   align-items: left;
+   font-size: 22px;    
 }
 
-form {
-    height: 33px;
-    width: 33px;
-    background-color: aquamarine;
+img {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background-color: pink;
+    position: right;
 }

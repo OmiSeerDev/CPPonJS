@@ -1,14 +1,16 @@
 html{
     background: #1C1C1C;
 }
+
 .headbox {
     display: flex;
     max-width: 100%;
     border: black dotted 4px;
+    vertical-align: middle;
 }
 
 .headcontent{
-    height: 150px;
+    height: 148px;
     flex: 1 auto;
 }
 
@@ -17,11 +19,48 @@ html{
     width: 80%;
     color: black;
     text-align: center;
-    font-size: 48px;
+    font-size: 28px;
     font-weight: bolder;
+    vertical-align: middle;
 }
 
 .right{
     background-image: linear-gradient(180deg, #005555, #00FF55);
     width: 20%;
+}
+
+nav{
+    display: flex;
+    height: 732px;
+    margin-top: 4px;
+    width: 16%;
+    border: black 3px solid;
+    background-color: #000000;
+    justify-content: left;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul {
+    border: silver 0.5px solid;
+    background-color: #0088FF;
+    margin: 1px 2px 0 2px;
+    height: 72px;
+}
+
+article{
+    height: 684px;
+    width: 1368px;
+    border: gray dotted 2px;
+    border-radius: 1%;
+    align-self: center;
+    justify-content: center;
+    margin: 0 30px 0 30px;
+    padding: 0;
+    background-color: azure;
 }

@@ -1,22 +1,27 @@
-
-body {
-    border: solid black 2px;
+html{
+    background: #1C1C1C;
+}
+.headbox {
+    display: flex;
+    max-width: 100%;
+    border: black dotted 4px;
 }
 
-header {
-   background-color: rgb(25, 206, 25);
-   display: inline-block;
-   position:sticky;
-   max-width: 100%;
-   justify-content: left;
-   align-items: left;
-   font-size: 22px;    
+.headcontent{
+    height: 150px;
+    flex: 1 auto;
 }
 
-img {
-    display: inline-block;
-    height: 80px;
-    width: 80px;
-    background-color: pink;
-    position: right;
+.left{
+    background-image: linear-gradient(180deg, #0022A3, #00F5F5);
+    width: 80%;
+    color: black;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.right{
+    background-image: linear-gradient(180deg, #005555, #00FF55);
+    width: 20%;
 }

@@ -30,7 +30,23 @@
                 <ul></ul>
             </nav>
             <article>
-
+                <div>
+                    <input type="number" name="number" id="num" oninput="getNum()"/>
+                    <input type="submit" onclick="numclassif()"/>
+                    <script>
+                        let quantity;
+                        function getNum (){
+                            quantity = prompt("Insert a number");
+                        }
+                        function numclassif () {
+                             if (quantity%2 == 0){
+                            alert(`${quantity} is an even number!`);
+                             } else {
+                            alert(`${quantity} is an odd number`);
+                           }
+                        }
+                    </script>
+                </div>
             </article>
         </section>
 </body>

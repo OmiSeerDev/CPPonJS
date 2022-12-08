@@ -19,7 +19,7 @@ html{
     width: 80%;
     color: black;
     text-align: center;
-    font-size: 28px;
+    font-size: 18px;
     font-weight: bolder;
     vertical-align: middle;
 }
@@ -27,17 +27,6 @@ html{
 .right{
     background-image: linear-gradient(180deg, #005555, #00FF55);
     width: 20%;
-}
-
-nav{
-    display: flex;
-    height: 732px;
-    margin-top: 4px;
-    width: 16%;
-    border: black 3px solid;
-    background-color: #000000;
-    justify-content: left;
-    flex-direction: column;
 }
 
 section{
@@ -55,12 +44,12 @@ nav ul {
 
 article{
     height: 684px;
-    width: 1368px;
+    width: 342px;
     border: gray dotted 2px;
     border-radius: 1%;
     align-self: center;
     justify-content: center;
-    margin: 0 30px 0 30px;
+    margin: 30px 30px 30px 30px;
     padding: 0;
     background-color: azure;
 }

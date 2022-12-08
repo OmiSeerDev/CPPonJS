@@ -17,22 +17,9 @@
             </righthead>
         </header>
         <section>
-            <nav>
-                <ul></ul>
-                <ul></ul>
-                <ul></ul>
-                <ul></ul>
-                <ul></ul>
-                <ul></ul>
-                <ul></ul>
-                <ul></ul>
-                <ul></ul>
-                <ul></ul>
-            </nav>
+           
             <article>
                 <div>
-                    <input type="number" name="number" id="num" oninput="getNum()"/>
-                    <input type="submit" onclick="numclassif()"/>
                     <script>
                         let quantity;
                         function getNum (){
@@ -46,6 +33,8 @@
                            }
                         }
                     </script>
+                    <button id="num" onclick="getNum()">Click to insert a number</button>
+                    <input type="submit" onclick="numclassif()"/>
                 </div>
             </article>
         </section>

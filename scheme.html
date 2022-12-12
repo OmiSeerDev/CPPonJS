@@ -19,24 +19,15 @@
         <section>
            
             <article>
-                <div>
-                    <script>
-                        let quantity;
-                        function getNum (){
-                            quantity = prompt("Insert a number");
-                        }
-                        function numclassif () {
-                             if (quantity%2 == 0){
-                            alert(`${quantity} is an even number!`);
-                             } else {
-                            alert(`${quantity} is an odd number`);
-                           }
-                        }
-                    </script>
-                    <button id="num" onclick="getNum()">Click to insert a number</button>
-                    <input type="submit" onclick="numclassif()"/>
-                </div>
+                <form id="form">
+                    <h2>Inserte un número</h2>
+                    <input placeholder="Insert a number" id="num1">
+                    <button id="parity">Calculate</button> 
+                    <h3 id="result"></h3>
+                </form>
+               
             </article>
         </section>
+        <script src="numberparity.js"></script>
 </body>
 </html>

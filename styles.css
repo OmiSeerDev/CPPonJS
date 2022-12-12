@@ -1,5 +1,9 @@
 html{
-    background: #1C1C1C;
+    
+    background-color: coral;
+    background-image: url("SEHENSWURDIGKEITEN\ \(1\).jpg");
+    background-size: cover;
+    
 }
 
 .headbox {
@@ -27,6 +31,7 @@ html{
 .right{
     background-image: linear-gradient(180deg, #005555, #00FF55);
     width: 20%;
+    justify-content: center;
 }
 
 section{
@@ -43,8 +48,9 @@ nav ul {
 }
 
 article{
-    height: 684px;
-    width: 342px;
+    height: 170px;
+    width: 340px;
+    display: flex;
     border: gray dotted 2px;
     border-radius: 1%;
     align-self: center;
@@ -52,4 +58,11 @@ article{
     margin: 30px 30px 30px 30px;
     padding: 0;
     background-color: azure;
+}
+
+button{
+    background-color: #005555;
+    border: silver solid 2px;
+    color: silver;
+    position: center;
 }

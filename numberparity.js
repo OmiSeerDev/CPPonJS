@@ -1,11 +1,21 @@
-function numclassif () {
-    let quantity = prompt("Insert a number");
+const input = document.querySelector('#num1');
+const parity = document.querySelector('#form');
+const result = document.querySelector('#result');
 
-    if (quantity%2 == 0){
-        alert(`${quantity} is an even number!`);
+function numclassif (event) {
+  // input.value = parseInt(input.value);
+    if (input.value %2 == 0){
+        result.innerText = `${input.value} is an even number!`;
+    } else if (input.value %2 != 0){
+        result.innerText = `${input.value} is an odd number!`;
     } else {
-        alert(`${quantity} is an odd number`);
+        input.value = NaN;
+        return "Input error"
     }
+    console.log(event);
+    event.preventDefault();
 }
-
-object.onclick = numclassif();
+    
+    setTimeout(
+        parity.addEventListener('submit',numclassif),500
+        )

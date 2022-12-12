@@ -1,15 +1,14 @@
 html{
-    
-    background-color: coral;
     background-image: url("SEHENSWURDIGKEITEN\ \(1\).jpg");
-    background-size: cover;
+    background-size:cover;
+    
     
 }
 
 .headbox {
     display: flex;
     max-width: 100%;
-    border: black dotted 4px;
+    border: blak double .004px;
     vertical-align: middle;
 }
 
@@ -64,5 +63,15 @@ button{
     background-color: #005555;
     border: silver solid 2px;
     color: silver;
-    position: center;
+}
+
+@media (max-width: 375px){
+    html {
+    background-repeat: repeat;
+    background-size: contain;
+    }
+    article {
+        display: inline-flex;
+    }
+
 }
